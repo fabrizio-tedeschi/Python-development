@@ -20,7 +20,7 @@ nome_variabile = valore
 
 I dati contenuti nella variabili possono essere modificati tramite nuove assegnazioni:
 
-```
+```python
 var = 8
 var = var + 1
 ```
@@ -48,7 +48,7 @@ z = z + "3"		#ERRORE
 
 Per scambiare due variabili è sempre necessaria una variabile temporanea di appoggio in cui salvare il valore di una delle due variabili di partenza.
 
-```
+```python
 a = 15
 b = 20
 
@@ -61,7 +61,7 @@ b = tmp 		#Inserisco in b il valore di tmp (15)
 
 Senza la variabile temporanea, nel momento in cui il valore di una delle due variabili viene assegnato all'altra, il valore di una di esse viene irrimediabilmente perso:
 
-```
+```python
 a = 15
 b = 20
 
