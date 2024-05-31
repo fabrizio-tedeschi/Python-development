@@ -33,7 +33,7 @@ Il nuovo valore di `var` è costituito dal suo valore precedente (8) a cui viene
 >[!WARNING]
 >ATTENZIONE: durante l'assegnazione di un dato ad una variabile viene scelto anche il tipo di dato che le viene passato (intero, stringa, etc.). Tale scelta influisce sulle operazioni successive.
 
-```
+```python
 x = 15
 x = x + 1		#Ora x vale 16
 
