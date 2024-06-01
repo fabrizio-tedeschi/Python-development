@@ -113,5 +113,41 @@ for i in range(1, 10):
 >[!TIP]
 >Nella semantica del linguaggio python quando si esprimono gli estremi di un intervallo si considerano sempre i valori iniziali e finali secondo la seguente logica: **primo incluso, ultimo escluso**.
 
-### Implementazione del ciclo do-while
+### PROBLEMA: implementazione del ciclo do-while
 
+In python NON esiste un costrutto per implementare direttamente un ciclo do-while. Consideriamo quindi le informazioni in nostro possesso:
+
+* Un ciclo do-while esegue le istruzioni in esso contenute ALMENO una volta
+* Un ciclo while "standard" viene eseguito fino a quando la condizione risulta `True`
+* La parola chiave `break` permette di interrompere un ciclo
+* Si possono nidificare strutture di selezione e ripetizione
+
+Vengono di seguito riportate due possibili implementazione del ciclo do-while
+
+```python
+#Impostazione di una variabile di controllo
+flag = True
+
+#Implementazione del ciclo
+while(flag):
+    print("Sono nel ciclo")
+    flag = False
+print("Sono uscito dal ciclo")
+```
+
+```python
+#Dichiarazione variabile con valore da incrementare
+i = 0
+
+#Implementazione del ciclo do-while
+while(True):
+    print("Sono nel ciclo")
+    if(i > 3):
+        break
+    else:
+        i += 1
+print("Sono uscito dal ciclo")
+```
+
+>[!WARNING]
+>Quando si implementa un ciclo while con condizione `True` o con una variabile di controllo bisogna sempre ricordarsi di aggiornare la variabile di controllo oppure inserire la parola chiave `break` all'interno del ciclo per evitare di cadere all'interno di un **loop infinito**!
