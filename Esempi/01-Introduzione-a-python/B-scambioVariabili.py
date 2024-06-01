@@ -27,5 +27,5 @@ y = x
 print("Situazione dopo lo scambio SBAGLIATO:")
 print("La variabile x vale", x)
 print("La variabile y vale", y)
-print("Uno dei due valore è stato perduto per sempre!")
+print("Uno dei due valore e' stato perduto per sempre!")
 print()
