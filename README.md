@@ -30,14 +30,14 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 ### [02] - Introduzione al linguaggio
 
 * Linguaggio interpretato
-* Gestione dell'I/O da terminale
 * Tipi di dato e operatori
+* Gestione dell'I/O da terminale
 * Librerie (numeri random)
 
 ### [03] - Strutture di selezione e ripetizione
 
 * Strutture di selezione e controllo (if, elif, else)
-* Strutture di ripetizione (while, do-while, for)
+* Strutture di ripetizione (while, for, do-while)
 
 ### [04] - Strutture dati
 

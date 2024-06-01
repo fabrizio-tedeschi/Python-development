@@ -59,3 +59,5 @@ Viene di seguito riportato come opera il ciclo for:
 1. Si effettua un controllo sulla condizione
 2. Se la condizione posta è vera viene eseguito il blocco di istruzioni
 3. Viene aggiornata la variabile di controllo
+
+![ciclo-for](./images/ciclo-for.jpg)
