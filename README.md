@@ -41,7 +41,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ### [03] - Strutture dati
 
-* Liste e metodi associati
+* Liste, tuple e metodi associati
 * Dictionary e metodi associati
 
 ### [04] - Funzioni
