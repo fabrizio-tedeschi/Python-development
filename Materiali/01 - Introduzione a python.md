@@ -97,7 +97,7 @@ a != c 				#False
 * `+` --> permette di effettuare la SOMMA fra due valori
 * `-` --> permette di effettuare la DIFFERENZA fra due valori
 * `*` --> permette di effettuare la MOLTIPLICAZIONE fra due valori
-* `/` --> permette di effettuare la DIVISIONE INTERA fra due valori
+* `/` --> permette di effettuare la DIVISIONE fra due valori
 * `%` --> restituisce il RESTO della divisione intera fra due valori
 
 ```python
@@ -110,7 +110,7 @@ a + b 				#Restituisce 13
 a - b				#Restituisce 7
 
 a * b 				#Restituisce 30
-a / b				#Restituisce 3
+a / b				#Restituisce 3.333333
 
 a % b 				#Restituisce 1
 ```
