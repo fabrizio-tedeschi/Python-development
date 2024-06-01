@@ -119,9 +119,6 @@ a / b				#Restituisce 3.333333
 a % b 				#Restituisce 1
 ```
 
->[!TIP]
->Effettuare la divisione intera tramite l'operatore `/` significa che qualsiasi valore decimale (con la virgola) sarà TRONCATO: NON  sarà arrotondato secondo le regole matematiche di arrotondamento!
-
 ## Input e Output dei dati
 
 I programmi spesso devono interagire con l'utente. Essi ricevono informazioni in input e producono informazioni di output per l'utente. Le informazioni vengono ricevute e fornite su perifceriche si standard input e standard output.
