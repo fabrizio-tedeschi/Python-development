@@ -77,6 +77,8 @@ Gli **operatori** permettono di eseguire confronti o modifiche ai dati delle var
 * `=` --> permette di assegnare un certo valore ad una certa variabile
 * `==` --> permette di confrontare due variabili restituendo `True` se esse sono UGUALI
 * `!=` --> permette di confrontare due variabili restituendo `True` se esse sono DIVERSE
+* `>` --> permette di confrontare due variabili restituendo `True` se la prima è MAGGIORE della seconda
+* `<` --> permette di confrontare due variabili restituendo `True` se la prima è minore della seconda
 
 ```python
 #Assegnazioni
@@ -85,11 +87,13 @@ b = 5
 c = 3
 
 #Confronti
-a == b 				#False
-a == c 				#True
+a == b                          #False
+a == c                          #True
 
-a != b 				#True
-a != c 				#False
+a != b                          #True
+a != c                          #False
+
+a >= c                          #True
 ```
 
 ### Operatori matematici
@@ -149,9 +153,9 @@ print("La variabile x vale", x)						#La variabile x vale 7
 >* `str()`: trasforma il valore passato in una stringa
 
 ```python
-x = int(input("Inserire il valore di x: "))			#Attende il valore fornito dall'utente e lo trasforma in intero
+x = int(input("Inserire il valore di x: "))             #Attende il valore fornito dall'utente e lo trasforma in intero
 x = x + 5
-print("La variabile x vale", x)						#Stampa il valore fornito dall'utente aumentato di 5
+print("La variabile x vale", x)                         #Stampa il valore fornito dall'utente aumentato di 5
 ```
 
 >[!NOTE]
