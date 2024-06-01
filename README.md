@@ -22,34 +22,34 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 ## Moduli del corso BASE
 
-### [01] - Introduzione
+### [00] - Introduzione
 
 * Utilizzo dei comandi testuali di sistema
 * Algoritmi, variabili e costrutti logici
 
-### [02] - Introduzione al linguaggio
+### [01] - Introduzione al linguaggio
 
 * Linguaggio interpretato
 * Tipi di dato e operatori
 * Gestione dell'I/O da terminale
 * Librerie (numeri random)
 
-### [03] - Strutture di selezione e ripetizione
+### [02] - Strutture di selezione e ripetizione
 
 * Strutture di selezione e controllo (if, elif, else)
 * Strutture di ripetizione (while, for, do-while)
 
-### [04] - Strutture dati
+### [03] - Strutture dati
 
 * Liste e metodi associati
 * Dictionary e metodi associati
 
-### [05] - Funzioni
+### [04] - Funzioni
 
 * Il concetto di "funzione"
 * Dichiarazione e definizione di funzioni
 
-### [06] - File di testo
+### [05] - File di testo
 
 * Utilizzo dei file di testo come I/O
 * File di testo come risorsa su cui salvare informazioni
