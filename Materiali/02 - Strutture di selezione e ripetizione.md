@@ -38,7 +38,7 @@ istruzioni successive
 La struttura di selezione `if` accetta una certa condizione ed esegue le istruzioni specificate "al suo interno" solamente se la condizione specificata risulta vera.
 
 ```python
-if(condizione):
+if condizione:
 	#Istruzioni eseguite in caso di condizione VERA
 else:
 	#Istruzioni eseguite in caso di condizione FALSA
@@ -47,11 +47,11 @@ else:
 La struttura `if` permette di verificare diverse condizioni *in cascata* tramite l'utilizzo di `elif` (else if) come mostrato nel seguito.
 
 ```python
-if(c1):
+if c1:
 	#Istruzioni eseguite in caso c1 sia VERA
-elif(c2):
+elif c2:
 	#Istruzioni eseguite in caso c1 sia FALSA ma c2 VERA
-elif(c3):
+elif c3:
 	#Istruzioni eseguite in caso c1 e c2 siano FALSE ma c3 VERA
 else:
 	#Istruzioni eseguite in caso di c1, c2, c3 tutte FALSE
@@ -63,11 +63,11 @@ else:
 ```python
 x = 15
 
-if(x > 10):
+if x > 10:
 	#Istruzione eseguita solo in caso x sia > 10
 	print("Il valore x è maggiore di 10")
 
-elif(x > 12):
+elif x > 12:
 	#Istruzione che non sarà MAI eseguita: se x è > 12 per forza è anche > 10: si cade nel caso precedente!
 	print("Questa print non viene MAI eseguita")
 
@@ -83,7 +83,7 @@ Il ciclo `while` permette di ripetere le istruzioni contenute al suo interno fin
 ```python
 #Istruzioni iniziali
 
-while(condizione):
+while condizione:
 	#Istruzioni da ripetere
 
 #Istruzioni successive
@@ -129,7 +129,7 @@ Vengono di seguito riportate due possibili implementazione del ciclo do-while
 flag = True
 
 #Implementazione del ciclo
-while(flag):
+while flag:
     print("Sono nel ciclo")
     flag = False
 print("Sono uscito dal ciclo")
@@ -140,7 +140,7 @@ print("Sono uscito dal ciclo")
 i = 0
 
 #Implementazione del ciclo do-while
-while(True):
+while True:
     print("Sono nel ciclo")
     if(i > 3):
         break
