@@ -80,6 +80,9 @@ Gli **operatori** permettono di eseguire confronti o modifiche ai dati delle var
 * `>` --> permette di confrontare due variabili restituendo `True` se la prima è MAGGIORE della seconda
 * `<` --> permette di confrontare due variabili restituendo `True` se la prima è minore della seconda
 
+* `and` --> restituisce `True` se entrambe le condizioni ai suoi estremi sono vere
+* `or` --> restituisce `True` se almeno una delle condizioni ai suoi estremi è vera
+
 ```python
 #Assegnazioni
 a = 3
@@ -94,6 +97,11 @@ a != b                          #True
 a != c                          #False
 
 a >= c                          #True
+
+a == 3 and b == 5               #True
+a == 1 and b == 5               #False
+a == 1 or b == 5                #True
+a == 1 or b == 1                #False
 ```
 
 ### Operatori matematici
@@ -101,7 +109,9 @@ a >= c                          #True
 * `+` --> permette di effettuare la SOMMA fra due valori
 * `-` --> permette di effettuare la DIFFERENZA fra due valori
 * `*` --> permette di effettuare la MOLTIPLICAZIONE fra due valori
+* `**` --> permette di effettuare la POTENZA fra due valori
 * `/` --> permette di effettuare la DIVISIONE fra due valori
+* `//` --> permette di effettuare la DIVISIONE INTERA fra due valori
 * `%` --> restituisce il RESTO della divisione intera fra due valori
 
 ```python
@@ -118,6 +128,9 @@ a / b				#Restituisce 3.333333
 
 a % b 				#Restituisce 1
 ```
+
+>[!TIP]
+>L'operatore di assegnazione `=` può essere combinato con gli operatori matematici e logici per abbreviare le esperessioni: `x = x + 3` può essere scritto con notazione compatta come `x += 3`
 
 ## Input e Output dei dati
 
