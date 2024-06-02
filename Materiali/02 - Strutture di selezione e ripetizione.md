@@ -151,3 +151,26 @@ print("Sono uscito dal ciclo")
 
 >[!WARNING]
 >Quando si implementa un ciclo while con condizione `True` o con una variabile di controllo bisogna sempre ricordarsi di aggiornare la variabile di controllo oppure inserire la parola chiave `break` all'interno del ciclo per evitare di cadere all'interno di un **loop infinito**!
+
+## La parola chiave `else` al termine dei cicli
+
+L'aggiunta di della parola chiave `else` al termine di un ciclo iterativo permette di eseguire un certo blocco di istruzioni solamente se il ciclo viene completato i nmaniera naturale.
+
+```python
+while condizione:
+    #Istruzioni del ciclo
+else:
+    #Istruzioni da eseguire solo se il ciclo non viene interrotto
+
+#---------------------------------------------------------------------------#
+
+for var in oggetto_iterabile:
+    #Istruzioni del ciclo
+else:
+    #Istruzioni da eseguire solo se il ciclo non viene interrotto
+```
+
+![cicli-else](./images/cicli-else.jpg)
+
+>[!TIP]
+> Se viene eseguita una istruzione `break` all'interno del ciclo, questo termina in modo forzato ed il blocco `else` NON viene eseguito!

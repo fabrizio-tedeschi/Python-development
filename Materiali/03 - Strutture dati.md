@@ -13,8 +13,12 @@ Si dice **struttura dati** una entità utilizzata per organizzare un insieme di 
 > Tutte le strutture dati sono oggetti sui quali è possibile eseguire iterazioni. Ciò significa che esse possono essere inserite al'interno di un ciclo `for` nel quale la variabile assumerò via via il valore di ciascun elemento della strututra dati.
 
 ```python
+#Operazioni iniziali
+
 for elemento in struttura_dati:
-    #Operazioni da esegurie sull'elemento
+    #Operazioni da esegurie durante ciascuna iterazione
+
+#Operazioni successive
 ```
 
 ## Tuple
@@ -68,9 +72,9 @@ Per accedere agli elementi di una lista è possibile utilizzare l'operatore `[]`
 #Inizializzazione di una lista di numeri
 dispari = [1, 3, 5, 7, 9]
 
-print(dispari[0])           #Stampa 1
-print(dispari[1])           #Stampa 3
-print(dispari[-1])          #Stampa 9
+print(dispari[0])           #Stampa: 1
+print(dispari[1])           #Stampa: 3
+print(dispari[-1])          #Stampa: 9
 ```
 
 Per modificare gli elementi di una lista è possibile utilizzare l'operatore di assegnazione `=`:
@@ -81,7 +85,7 @@ l = [1, 2]
 
 #Modifica del secondo elemento
 l[1] = 50
-print(l)          #Stampa [1, 50]
+print(l)                    #Stampa: [1, 50]
 ```
 
 Nel caso si voglia accedere a ciascun elemento della lista ed effettuare operazioni su di esso, allora risulta opportuno un ciclo `for` per iterare sulla lista:
@@ -123,8 +127,8 @@ l.remove("parola")
 #Rimozione del primo elemento
 popped = l.pop(0)
 
-print(popped)               #Stampa 3
-print(l)                    #Stampa [5, 50]
+print(popped)               #Stampa: 3
+print(l)                    #Stampa: [5, 50]
 ```
 
 ## Dictionary
@@ -169,7 +173,7 @@ my_dict = {
 }
 
 #Utilizzo del metodo get
-print(my_dict.get("k1"))                            #Stampa; Mele
+print(my_dict.get("k1"))                            #Stampa: Mele
 print(my_dict.get("k3"))                            #Stampa: None
 print(my_dict.get("k3", "Chiave inesistente"))      #Stampa: chiave inesistente
 ```
@@ -206,9 +210,9 @@ my_dict = {
     "k2": "Pere"
 }
 
-keys = my_dict.keys()           # ["k1", "k2"]
-values = my_dict.values()       # ["Mele", "Pere"]
-items = my_dict.items()         # [("k1", "Mele"), ("k2", "Pere")]
+keys = my_dict.keys()           #Restituisce: ["k1", "k2"]
+values = my_dict.values()       #Restituisce: ["Mele", "Pere"]
+items = my_dict.items()         #Restituisce: [("k1", "Mele"), ("k2", "Pere")]
 ```
 
 Per iterare sugli oggetti di un dictionary è possibile utilzzare una coppia di variabili come mostrato nel seguito:
@@ -217,4 +221,6 @@ Per iterare sugli oggetti di un dictionary è possibile utilzzare una coppia di 
 #Iterazione su oggetti di un dictionary
 for k, v in my_dict.items():
     #Operazioni da svolgere durante ciascuna iterazione
+
+#Operazioni successive
 ```
