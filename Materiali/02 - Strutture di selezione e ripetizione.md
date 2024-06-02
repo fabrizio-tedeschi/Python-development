@@ -154,7 +154,7 @@ print("Sono uscito dal ciclo")
 
 ## La parola chiave `else` al termine dei cicli
 
-L'aggiunta di della parola chiave `else` al termine di un ciclo iterativo permette di eseguire un certo blocco di istruzioni solamente se il ciclo viene completato i nmaniera naturale.
+L'aggiunta di della parola chiave `else` al termine di un ciclo iterativo permette di eseguire un certo blocco di istruzioni solamente se il ciclo viene completato in maniera naturale.
 
 ```python
 while condizione:
