@@ -108,6 +108,9 @@ I **metodi** sono funzioni proprie delle liste che permettono di modificarle (al
 * `.pop(i)`: permette di rimuovere l'elemento all'indice `i` dalla lista e lo restituisce;
 * `.remove(e)`: permette di rimuovere l'elemento `e` dalla lista;
 * `.index(e)`: restituisce l'indice della prima occorrenza di `e` nella lista;
+* `.sort()`: ordina la lista secondo il normale ordine crescente (per elementi dello stesso tipo);
+* `.reverse()`: inverte l'ordine degli elementi della lista;
+* `.count(e)`: restituisce il numero di occorrenze di `e` presenti nella lista;
 
 ```python
 #Definizione di una lista vuota
