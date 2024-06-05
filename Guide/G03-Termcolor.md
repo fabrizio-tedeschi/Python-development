@@ -1,5 +1,7 @@
 ## Guida all'utilizzo della libreria termcolor
 
+>Documentazione ufficiale della lbreria al [presente link](https://pypi.org/project/termcolor/).
+
 ### Descrizione
 
 La libreria `termcolor` permette di applicare colori al testo stampato su terminale.
@@ -25,6 +27,25 @@ La funzione `colored()` permette di ottenere "stringhe coloarate" che possono es
 ```
 colored(string, color, background, attrs=[att1, att2, ...])
 ```
+
+### Colori
+
+| Text colors | Text backgrounds |
+|-------------|------------------|
+| `black`     | `on_black`       |
+| `red`       | `on_red`         |
+| `green`     | `on_green`       |
+| `yellow`    | `on_yellow`      |
+| `blue`      | `on_blue`        |
+| `magenta`   | `on_magenta`     |
+| `cyan`      | `on_cyan`        |
+| `white`     | `on_white`       |
+
+### Attributi
+
+* `bold`: grassetto
+* `underline`: sottolineato
+* `reverse`: inverte tutte le opzioni
 
 ### Esempio
 
