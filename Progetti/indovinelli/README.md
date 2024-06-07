@@ -1,4 +1,4 @@
-# Progetto - *indovinelli-mistici*
+# Progetto - *indovinelli*
 
 ### Descrizione
 
