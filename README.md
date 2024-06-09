@@ -48,6 +48,8 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 * Il concetto di "funzione"
 * Dichiarazione e definizione di funzioni
+* Passaggio per copia e per riferimento
+* Valori di default dei parametri
 
 ### [05] - File di testo
 

@@ -48,7 +48,7 @@ In matematica le soluzioni di una quazione d secondo grado si calcolano tramite 
 
 ![formula](../../Materiali/images/formula-equazioni.jpg)
 
-IMPORTANTE: se delta risulta essere minore di 0, l'equazione NON possiede soluzioni reali
+**IMPORTANTE**: se DELTA risulta essere minore di 0, l'equazione NON possiede soluzioni reali.
 
 Definire una funzione `risolvi_equazione(a, b, c)` che accetta i parametri di una equazione di secondo grado e stampa su `stdout` le due possibili soluzioni.
 Effettuare tutti i controlli opportuni sui parametri forniti e sul valore di delta calcolato.
