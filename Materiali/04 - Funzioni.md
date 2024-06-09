@@ -123,4 +123,4 @@ saluta("Mario")                             #Stampa: Ciao, Mario
 ```
 
 >[!NOTE]
-> Dato che i parametri di una funzione vengono passati IN ORDINE è sempre bene porre i parametri opzionali come ultimi  parametri dell'elenco.
+> Dato che i parametri dBi una funzione vengono passati IN ORDINE è sempre bene porre i parametri opzionali come ultimi  parametri dell'elenco.
