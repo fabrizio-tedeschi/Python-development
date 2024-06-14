@@ -43,6 +43,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 * Liste, tuple e metodi associati
 * Dictionary e metodi associati
+* Set e metodi associati
 
 ### [04] - Funzioni
 
@@ -51,14 +52,22 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * Passaggio per copia e per riferimento
 * Valori di default dei parametri
 
-### [05] - File di testo
+### [05] - File di testo e directory
 
 * Utilizzo dei file di testo come I/O
 * File di testo come risorsa su cui salvare informazioni
+* Operare con le directory del file system
 
 ## Moduli del corso INTERMEDIO
+#### Object Oriented Programming (OOP)
 
 > WIP
+
+### [06] - Approccio ad oggetti
+### [07] - Metodi speciali
+### [08] - Ereditarietà
+### [09] - Enumerazioni
+### [10] - Eccezioni
 
 ## Moduli del corso AVANZATO
 
