@@ -1,0 +1,10 @@
+ciao
+mare
+bello
+oggi
+una bella
+giornata
+di sole
+hello world
+viva
+il linguaggio python

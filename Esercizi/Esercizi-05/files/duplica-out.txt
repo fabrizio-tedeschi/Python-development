@@ -1,0 +1,14 @@
+Articolo di giornale fake
+
+Introduzione
+testo testo testo testo testo
+ancora testo ancora testo ancora testo ancora testo
+ancora testo ancora testo
+
+Corpo dell'articolo
+bla bla bla
+ancora linee
+fine corpo articolo
+
+A cura di
+Mario Rossi

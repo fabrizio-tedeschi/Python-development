@@ -44,7 +44,7 @@ persone = [
 
 ### (F) - equazioni.py
 
-In matematica le soluzioni di una quazione d secondo grado si calcolano tramite la seguente formula:
+In matematica le soluzioni di una quazione di secondo grado del tipo `ax^2 + bx + c = 0`si calcolano tramite la seguente formula:
 
 ![formula](../../Materiali/images/formula-equazioni.jpg)
 

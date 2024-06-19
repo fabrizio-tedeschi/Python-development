@@ -1,0 +1,5 @@
+secondo file di testo che contiene un testo non troppo lungo
+composto da molte parole con anche parole ripetute
+in varie linee si ripetono alcune parole specifiche come
+per esempio la parola parole, si noti che quando la parola cercata
+possiede un carattere adiacente non viene rilevata dall'operatore di uguaglianza
