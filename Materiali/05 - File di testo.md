@@ -10,14 +10,14 @@ linea tramite tale carattere.
 Per creare un file è possibile sfruttare la funzione `open()` come mostrato di seguito.
 
 ```python
-#Creazione di un nuovo file e apertura in scrittura
-open("percorso/nome", "w")
+#Creazione di un nuovo file alla posizione corrente e apertura in scrittura
+open("nome", "w")
 
 #Creazione di un nuovo file solo se questo non esiste già
-open("percorso/nome", "x")
+open("nome", "x")
 ```
 
-La funzione `open(filename, mode)` permette inoltre di aprire un file secondo la modalità specificata come parametro.
+La funzione `open(percorso/nomefile, mode)` permette inoltre di aprire un file secondo la modalità specificata come parametro.
 Essa restituisce un riferimento al file aperto.
 
 ### Modalità di apertura dei file
@@ -30,7 +30,7 @@ Essa restituisce un riferimento al file aperto.
 
 ```python
 #Apertura di un file esistente in lettura
-open("prova.txt", "r")
+open("documenti/prova.txt", "r")
 ```
 
 ## Lettura e scrittura dati da file
