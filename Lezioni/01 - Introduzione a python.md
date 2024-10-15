@@ -118,13 +118,17 @@ a == 1 or b == 1                #False
 #Assegnazioni
 a = 10
 b = 3
+c = "stringa"
 
 #Operazioni
 a + b 				#Restituisce 13
 a - b				#Restituisce 7
+c + c               #Restituisce "stringastringa"
+a + c               #Errore: non si può sommare un intero con una stringa
 
 a * b 				#Restituisce 30
 a / b				#Restituisce 3.333333
+2*c                 #Restituisce "stringastringa"
 
 a % b 				#Restituisce 1
 ```
