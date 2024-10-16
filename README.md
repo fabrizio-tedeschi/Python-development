@@ -13,6 +13,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 
 * Installazione di GIT bash
 * Installazione di Python 3
+* Installazione di Termcolor
 
 ### Documentazione
 
