@@ -7,7 +7,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * [GIT Bash](https://git-scm.com/downloads): applicativo per l'interpretazione di comandi testuali (terminale).
 * [Sublime text](https://www.sublimetext.com/): editor di testo per la scrittura agevolata dei file di codice.
 * [Python 3](https://www.python.org/downloads/): interprete del linguaggio di programmazione.
-* [PyCharm](https://www.jetbrains.com/pycharm/): ambiente di sviluppo (IDE) per progetti python avanzati.
+* [PyCharm Community Edition](https://www.jetbrains.com/pycharm/): ambiente di sviluppo (IDE) per progetti python avanzati. (Fare scroll down nella pagina per eseguire il download della versione community gartuita)
 
 ### Guide
 
