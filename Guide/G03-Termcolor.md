@@ -1,6 +1,6 @@
 ## Guida all'utilizzo della libreria termcolor
 
->Documentazione ufficiale della lbreria al [presente link](https://pypi.org/project/termcolor/).
+>Documentazione ufficiale della libreria al [presente link](https://pypi.org/project/termcolor/).
 
 ### Descrizione
 

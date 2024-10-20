@@ -33,3 +33,5 @@ Scaricare l'installer associato al proprio sistema operativo dal [SITO UFFICIALE
 ![py04](./src/py04.png)
 
 5. Cliccare su `SALVA`
+
+6. Riavviare il terminale
