@@ -19,7 +19,8 @@ Scaricare l'installer associato al proprio sistema operativo dal [SITO UFFICIALE
 
 ### Aggiunta di comandi al path
 
-[!NOTE] Tali operazioni sono da svolgere solamente se non viene rilevato il comando `python` dal terminale.
+>[!NOTE]
+> Tali operazioni sono da svolgere solamente se non viene rilevato il comando `python` dal terminale.
 
 1. Digitare nella barra di ricerca di windows "variabili d'ambiente" e selezionare "Modifica le variabili di ambiente relative al sistema"
 2. Cliccare sul bottone `Variabili d'ambiente...`
