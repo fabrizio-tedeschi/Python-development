@@ -6,11 +6,11 @@
 
 La libreria `termcolor` permette di applicare colori al testo stampato su terminale.
 
-### Installaione
+### Installazione
 
 Da terminale digitare la seguente linea di comando
 
-```
+```bash
 pip install termcolor
 ```
 
@@ -22,7 +22,7 @@ import termcolor
 
 ### Utilizzo
 
-La funzione `colored()` permette di ottenere "stringhe coloarate" che possono essere passate come parametri della `print()`.
+La funzione `colored()` permette di ottenere "stringhe colorate" che possono essere passate come parametri della `print()`.
 
 ```
 colored(string, color, background, attrs=[att1, att2, ...])
