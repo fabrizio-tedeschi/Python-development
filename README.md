@@ -2,6 +2,8 @@
 
 Questa repository contiene tutte le informazioni ed i materiali per coloro che desiderano approcciarsi alla programmazione tramite l'utilizzo del linguaggio Python 3.
 
+> (Logbook con argomenti delle lezioni)[./Lezioni/2024-logbook.md]
+
 ### Software
 
 * [GIT Bash](https://git-scm.com/downloads): applicativo per l'interpretazione di comandi testuali (terminale).

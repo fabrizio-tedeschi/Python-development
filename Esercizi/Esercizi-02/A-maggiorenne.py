@@ -7,7 +7,7 @@ print()
 #Stampa del risultato su output
 print("Ciao", nome, cognome)
 
-#Ccontrollo degli anni
+#Controllo degli anni
 if anni >= 18:
     print("Sei maggiorenne, BENVENUTO!")
 else:
