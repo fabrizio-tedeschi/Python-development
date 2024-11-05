@@ -8,3 +8,5 @@
 | 22-10-2024 (2) | Struttura di selezione if, elif, else ed esercizio maggiorenne.py                  | L02             | [maggiorenne.py](../Esercizi/Esercizi-02/A-maggiorenne.py) |
 | 29-10-2024 (1) | Ripasso if, elif. Progetto avventura testuale.                                     | /               | [avventure-testuali](../Progetti/avventure-testuali)       |
 | 29-10-2024 (2) | Strutture di ripetizione: range, cicli for e while                                 | L02             | [E02](../Esercizi/Esercizi-02)                             |
+| 05-11-2024 (1) | Ripasso su costrutti logici for e while. Esercizi e correzione.                    | /               | [E02](../Esercizi/Esercizi-02)                             |
+| 05-11-2024 (2) | Introduzione alle strutture dati: liste e loro metodo.                             | L03             | /                                                          |
