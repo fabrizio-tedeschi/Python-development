@@ -102,7 +102,7 @@ Stampare ciascuna delle sue chiavi.
 Dato il seguente dictionary:
 
 ```python
-dict = {
+mydict = {
     "k1": "Primo elemento",
     "Chiave-2": False,
     3: 157,
