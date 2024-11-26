@@ -21,6 +21,45 @@ for elemento in struttura_dati:
 #Operazioni successive
 ```
 
+## Stringhe come strutture dati
+
+Le stringhe, finora trattate come dato semplice alla pari dei numeri interi, sono in realtà strutture complesse che possono
+essere utilizzate come strutture dati. Perciò, è possibile iterare su una stringa:
+
+```python
+str = "ciao"
+
+for ch in str:
+    print(ch)
+```
+
+Come tutte le strutture dati, anche le stringe possiedono metodi, se ne riportano alcuni
+
+* `.isalpha()`: Restituisce `True` se la stringa contiene solo caratteri alfabetici;
+* `.isdecimal()`: Restituisce `True` se la stringa contiene solo caratteri numerici;
+
+* `.upper()`: Restituisce la stessa stringa ma con tutti i caratteri in maiuscolo;
+* `.lower()`: Restituisce la stessa stringa ma con tutti i caratteri in minuscolo;
+
+* `string.split()`: Restituisce una lista in cui ogni elemento è una parola della stringa;
+* `list.join()`: Restituisce una stringa composta da ciascuno degli elementi della lista separati da spazi;
+
+```python
+l = ["Oggi", "fuori", "piove"]
+out = l.join()                      #out = "Oggi fuori piove"
+div = out.split()                   #div = ["Oggi", "fuori", "piove"]
+```
+
+* `.format(p1, p2, ...)`: Permette di definire campi variabili in una stringa e formattarla con i parametri passati;
+
+```python
+str = "Parte fissa della stringa seguita da un campo: {}"
+print(str.format("Campo X"))                #Stampa: "Parte fissa della stringa seguita da un campo: Campo X"
+
+nome = "MARIO"
+print(str.format(nome))               #Stampa: "Parte fissa della stringa seguita da un campo: MARIO"
+```
+
 ## Tuple
 
 Le tuple sono insiemi IMMUTABILI di elementi. Ciò significa che esse vengono inizializzate e non possono essere modificate successivamente.
