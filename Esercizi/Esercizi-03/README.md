@@ -55,13 +55,13 @@ In caso affermativo il programma stampa un messaggio di successo e l'indice a cu
 ### (F) - DOS-attack-defender.py
 
 Un indirizzo IP è una serie di 4 (da 0 a 254) numeri separati da un punto che identifica ciascun dispositivo connesso ad una rete.
-Se ne riposrta un esempio: `192.50.3.231`.
+Se ne riporta un esempio: `192.50.3.231`.
 
-Un DOS-attack è un attacco inormatico che viene messo in atto da un dispositivo che effettua richieste di rete ripetute in un breve lasso di tempo.
+Un DOS-attack è un attacco informatico che viene messo in atto da un dispositivo che effettua richieste di rete ripetute in un breve lasso di tempo.
 
 Si vuole simulare di seguito un DOS-attack ed un sistema di difesa. Si utilizzi:
 
-* Una lista `senders` per raccogliere gli indirizzi IP di tuttii possibili dispositivi che effettuano le richieste (contenente circa 20 indirizzi IP opportunamente generati)
+* Una lista `senders` per raccogliere gli indirizzi IP di tutti i possibili dispositivi che effettuano le richieste (contenente circa 20 indirizzi IP opportunamente generati)
 * Una lista `received` per raccogliere gli indirizzi IP che hanno effettuato una o più richieste
 * Una lista `blacklist` in cui inserire gli indirizzi IP le cui richieste sono da ignorare
 
@@ -71,13 +71,13 @@ Il programma si comporta come di seguito descritto:
 2. Se l'indirizzo IP effettua troppe richieste (compare in `received` più di 4 volte) esso viene aggiunto alla blacklist
 3. Se l'indirizzo IP non fa parte della blacklist il programma stampa il messaggio `Fornita risposta ad indirizzo IP: ...`
 
-Tali operazioni vengono ripetute 60 volte (ossia vengno effettuate 60 richieste). Al termine il programma stampa la lista senders e la blacklist.
+Tali operazioni vengono ripetute 60 volte (ossia vengono effettuate 60 richieste). Al termine il programma stampa la lista senders e la blacklist.
 
 ## Dictionary
 
 ### (G) - prodotti.py
 
-Inizializzare un dictionary vuoto `prodotti`. Ciascuna chiave di tale dctrionary è costituita da un intero progressivo maggiore di 1,
+Inizializzare un dictionary vuoto `prodotti`. Ciascuna chiave di tale dictionary è costituita da un intero progressivo maggiore di 1,
 ciascun valore da una stringa che contiene il nome di un prodotto di un supermercato.
 
 Si chieda all'utente di inserire 10 prodotti e successivamente si stampi ciascun prodotto (valore) assieme al proprio codice associato (chiave).

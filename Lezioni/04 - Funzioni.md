@@ -5,7 +5,7 @@ un nome un insieme di istruzioni.
 
 ```
 #Definizione di una funzione
-nome_funzione(parametri):
+def nome_funzione(parametri):
     Istruzioni
     return valore_da_restituire
 ```
@@ -27,7 +27,7 @@ risultato = nome_funzione(parametri)
 ```
 
 >[!TIP]
-> #### Domande utili da porsi prima di definire una fuzione
+> #### Domande utili da porsi prima di definire una funzione
 > In sede di definizione o utilizzo di una funzione è sempre buona norma riuscire a rispondere alle seguenti domande:
 > * Come si chiama?
 > * Che cosa fa?
@@ -105,7 +105,7 @@ print(risultato)                            #Stampa: [1, 2, 3, 4, 5]
 ```
 
 >[!TIP]
-> In python numeri e stringhe sono passat per copia, liste e dictionary sono passati per riferimento.
+> In python numeri e stringhe sono passati per copia, liste e dictionary sono passati per riferimento.
 
 ## Valori di default
 
