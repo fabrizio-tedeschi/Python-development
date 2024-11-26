@@ -21,7 +21,7 @@ come valore di ritorno.
 
 ### (D) - rimuovi-occorrenze.py
 
-Definire una funzione `rimuovi_occorrenze(l, e)` che accetta una lista `l` ed un elemento `e`. La funzione restituisce una nuova
+Definire una funzione `rimuovi_occorrenze(l, e)` che accetta una lista `l` e un elemento `e`. La funzione restituisce una nuova
 lista dalla quale sono state rimosse tutte le occorrenze di `e`.
 
 ### (E) - dati-maggiorenni.py

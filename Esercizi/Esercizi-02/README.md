@@ -2,7 +2,7 @@
 
 ### (A) - maggiorenne.py
 
-Scrivere un programma che accetta in input nome, cognome e anni di una persona. Il programma stampa su otput i dati della persona e se è maggiorenne o meno.
+Scrivere un programma che accetta in input nome, cognome e anni di una persona. Il programma stampa su output i dati della persona e se è maggiorenne o meno.
 
 ### (B) - serie-interi.py
 

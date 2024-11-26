@@ -49,7 +49,7 @@ Scrivere un programma che ordini:
 ### (E) - indovina-numero.py
 
 Scrivere un programma che inserisca in una lista 20 numeri random compresi fra -50 e 50.
-Terminata la creazione della lista  il programma chiede all'utente di iserire un valore numerico intero e controlla se questo valore è presente nella lista.
+Terminata la creazione della lista  il programma chiede all'utente di inserire un valore numerico intero e controlla se questo valore è presente nella lista.
 In caso affermativo il programma stampa un messaggio di successo e l'indice a cui si trova l'elemento nella lista. In caso negativo il programma stampa un messaggio di insuccesso.
 
 ### (F) - DOS-attack-defender.py
@@ -59,7 +59,7 @@ Se ne riporta un esempio: `192.50.3.231`.
 
 Un DOS-attack è un attacco informatico che viene messo in atto da un dispositivo che effettua richieste di rete ripetute in un breve lasso di tempo.
 
-Si vuole simulare di seguito un DOS-attack ed un sistema di difesa. Si utilizzi:
+Si vuole simulare di seguito un DOS-attack e un sistema di difesa. Si utilizzi:
 
 * Una lista `senders` per raccogliere gli indirizzi IP di tutti i possibili dispositivi che effettuano le richieste (contenente circa 20 indirizzi IP opportunamente generati)
 * Una lista `received` per raccogliere gli indirizzi IP che hanno effettuato una o più richieste
