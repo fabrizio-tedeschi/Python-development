@@ -17,7 +17,7 @@ Per eseguire l'insieme di istruzioni è possibile **chiamare** o **invocare** la
 nome_funzione(parametri)
 ```
 
-Una funzione può svolgere le operazioni in essa contenute utilizzando una serie di valori ad essa forniti detti **parametri**.
+Una funzione può svolgere le operazioni in essa contenute utilizzando una serie di valori a essa forniti detti **parametri**.
 
 Una funzione può fornire un **valore di ritorno** che può essere salvato in una variabile. Solitamente esso è il risultato prodotto dalle istruzioni eseguite.
 

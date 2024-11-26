@@ -23,12 +23,12 @@ Gli algoritmi permettono di effettuare controlli e svolgono certe operazioni in 
 
 ## Ripetizione delle operazioni
 
-Gli algoritmi permetto di ripetere **uno stesso insieme di istruzioni** (o blocco) fino al verificarsi di una certa condizione. Ciò diventa possibile atraverso dei costrutti detti **CICLI**. Ogni volta che il blocco interno ad un ciclo viene eseguito si parla di *iterazione*.
+Gli algoritmi permetto di ripetere **uno stesso insieme di istruzioni** (o blocco) fino al verificarsi di una certa condizione. Ciò diventa possibile attraverso dei costrutti detti **CICLI**. Ogni volta che il blocco interno a un ciclo viene eseguito si parla di *iterazione*.
 
 ### Tipologie di cicli iterativi
 
 * **Cicli while**: le istruzioni contenute al loro interno vengono eseguite fino a quando la condizione predisposta è vera ossia fornisce come risultato `True`.
-* **Ciclo for**: permette di ripetere le istruzini contenute al suo interno per un numero finito di volte.
+* **Ciclo for**: permette di ripetere le istruzioni contenute al suo interno per un numero finito di volte.
 
 ### While e do-while
 
@@ -48,11 +48,11 @@ Viene di seguito riportato come operano i cicli iterativi:
 ![cicli](./images/cicli-while.jpg)
 
 >[!NOTE]
->La differenza fra il ciclo while e il ciclo do-while consiste nel fatto che il blocco di istruzioni all'interno del do-while venga eseguito ALMENO UNA VOLTA (a diferenza del ciclo while).
+>La differenza fra il ciclo while e il ciclo do-while consiste nel fatto che il blocco di istruzioni all'interno del do-while venga eseguito ALMENO UNA VOLTA (a differenza del ciclo while).
 
 ### Ciclo for
 
-Il ciclo for permette di ripetere le istruzioni contenute al suo interno per un numero finito di volte. Proprio come per il ciclo while le istruzioni vengono ripetute finchè una certa condizione risulta vera. Tuttavia ad ogni iterazione si aggiorna una variabile di controllo.
+Il ciclo for permette di ripetere le istruzioni contenute al suo interno per un numero finito di volte. Proprio come per il ciclo while le istruzioni vengono ripetute finché una certa condizione risulta vera. Tuttavia a ogni iterazione si aggiorna una variabile di controllo.
 
 Viene di seguito riportato come opera il ciclo for:
 

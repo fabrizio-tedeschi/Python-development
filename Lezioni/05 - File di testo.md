@@ -5,7 +5,7 @@ I file di testo "contengono" al loro interno un insieme di caratteri in ordine s
 Ogni linea termina con un carattere speciale `\n` detto terminatore di linea. Diventa quindi possibile distinguere ciascuna
 linea tramite tale carattere.
 
-## Creazione e aprtura di file
+## Creazione e apertura di file
 
 Per creare un file è possibile sfruttare la funzione `open()` come mostrato di seguito.
 
@@ -71,7 +71,7 @@ Durante la lettura/scrittura da file viene utilizzato una sorta di cursore detto
 la scrittura di caratteri con gli editor di testo).
 
 Per modificare la posizione dell'I/O pointer è possibile utilizzare il metodo `.seek(pos)` che sposta l'I/O pointer
-ad una distanza di `pos` caratteri rispetto all'inizio del file.
+a una distanza di `pos` caratteri rispetto all'inizio del file.
 
 ```python
 #Apertura dei file

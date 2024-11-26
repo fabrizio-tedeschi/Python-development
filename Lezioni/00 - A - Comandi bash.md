@@ -15,7 +15,7 @@ Il file system è la struttura utilizzata dal sistema operativo per gestire orga
 
 Ogni elemento all'interno del file system viene identificato tramite un percorso. Esistono 3 tipi di percorsi
 
-* **Percorso assoluto**: identifica un certo elemento a partire dalla radice (la prima cartella) del file sistem.
+* **Percorso assoluto**: identifica un certo elemento a partire dalla radice (la prima cartella) del file system.
 * **Percorso relativo**: identifica un certo elemento a partire dalla posizione corrente nel file system.
 
 >[!TIP]
@@ -91,4 +91,4 @@ cp percorso/nome_file
 
 >[!NOTE]
 >
->Per rimuovere una directory ed i suoi elementi è possibile utilizzare il comando `rm -r` (recursive).
+>Per rimuovere una directory e i suoi elementi è possibile utilizzare il comando `rm -r` (recursive).

@@ -6,19 +6,19 @@ Python è un linguaggio di programmazione **interpretato**: ogni istruzione scri
 
 ## Variabili
 
-Una **variabile** è un contenitore di dati all'interno della memoria del dispositivo. Una variabile serve per "salvare" i dati ed è destinata ad essere utilizzata/modificata.
+Una **variabile** è un contenitore di dati all'interno della memoria del dispositivo. Una variabile serve per "salvare" i dati ed è destinata a essere utilizzata/modificata.
 
 ![variabili](./images/variabili.jpg)
 
 ### Utilizzo di variabili
 
-Per inserire dati all'intrno di variabili è possibile utilizzare l'operatore `=` ed effttuare una **assegnazione** come mostrato di seguito:
+Per inserire dati all'intrno di variabili è possibile utilizzare l'operatore `=` ed effettuare una **assegnazione** come mostrato di seguito:
 
 ```
 nome_variabile = valore
 ```
 
-I dati contenuti nella variabili possono essere modificati tramite nuove assegnazioni:
+I dati contenuti nella variabile possono essere modificati tramite nuove assegnazioni:
 
 ```python
 var = 8
@@ -31,7 +31,7 @@ Il nuovo valore di `var` è costituito dal suo valore precedente (8) a cui viene
 >In python le variabili possono contenere qualsiasi tipo di dato (NON sono *tipizzate*) ciò significa che esse possono contenere numeri, stringhe oppure dati più complessi (strutture dati).
 
 >[!WARNING]
->ATTENZIONE: durante l'assegnazione di un dato ad una variabile viene scelto anche il tipo di dato che le viene passato (intero, stringa, etc.). Tale scelta influisce sulle operazioni successive.
+>ATTENZIONE: durante l'assegnazione di un dato a una variabile viene scelto anche il tipo di dato che le viene passato (intero, stringa, etc.). Tale scelta influisce sulle operazioni successive.
 
 ```python
 x = 15
@@ -74,7 +74,7 @@ Gli **operatori** permettono di eseguire confronti o modifiche ai dati delle var
 
 ### Operatori logici
 
-* `=` --> permette di assegnare un certo valore ad una certa variabile
+* `=` --> permette di assegnare un certo valore a una certa variabile
 * `==` --> permette di confrontare due variabili restituendo `True` se esse sono UGUALI
 * `!=` --> permette di confrontare due variabili restituendo `True` se esse sono DIVERSE
 * `>` --> permette di confrontare due variabili restituendo `True` se la prima è MAGGIORE della seconda
@@ -134,11 +134,11 @@ a % b 				#Restituisce 1
 ```
 
 >[!TIP]
->L'operatore di assegnazione `=` può essere combinato con gli operatori matematici e logici per abbreviare le esperessioni: `x = x + 3` può essere scritto con notazione compatta come `x += 3`
+>L'operatore di assegnazione `=` può essere combinato con gli operatori matematici e logici per abbreviare le espressioni: `x = x + 3` può essere scritto con notazione compatta come `x += 3`
 
 ## Input e Output dei dati
 
-I programmi spesso devono interagire con l'utente. Essi ricevono informazioni in input e producono informazioni di output per l'utente. Le informazioni vengono ricevute e fornite su perifceriche si standard input e standard output.
+I programmi spesso devono interagire con l'utente. Essi ricevono informazioni in input e producono informazioni di output per l'utente. Le informazioni vengono ricevute e fornite su periferiche si standard input e standard output.
 
 Per gestire I/O dei dati python mette a disposizione due funzioni:
 
@@ -148,7 +148,7 @@ Per gestire I/O dei dati python mette a disposizione due funzioni:
 Di seguito un esempio di utilizzo della funzione `print()`:
 
 ```python
-x = 7;
+x = 7
 print("Ciao", "mare", "yeah!")						#Ciao mare yeah!
 print("La variabile x vale", x)						#La variabile x vale 7
 ```

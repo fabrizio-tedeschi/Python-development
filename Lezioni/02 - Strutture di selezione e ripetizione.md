@@ -6,7 +6,7 @@ Tali strutture rappresentano i concetti di selezione e ripetizione generali trat
 
 ### Indentazione del codice
 
-Si dice **indentazione** (o rientro) l'inserimento di una certa quantittà di spazio vuoto all'inizio di una riga di testo.
+Si dice **indentazione** (o rientro) l'inserimento di una certa quantità di spazio vuoto all'inizio di una riga di testo.
 
 ```
 Questa è la prima riga di testo

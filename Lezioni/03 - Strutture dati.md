@@ -16,7 +16,7 @@ Si dice **struttura dati** una entità utilizzata per organizzare un insieme di 
 #Operazioni iniziali
 
 for elemento in struttura_dati:
-    #Operazioni da esegurie durante ciascuna iterazione
+    #Operazioni da eseguire durante ciascuna iterazione
 
 #Operazioni successive
 ```
@@ -101,7 +101,7 @@ for e in dispari:
 
 ### Metodi dell liste
 
-I **metodi** sono funzioni proprie delle liste che permettono di modificarle (alterarne la struttura). Essi si applicano alla varaibile che identifica la lista tramite l'operatore punto: `.nome_metodo()`
+I **metodi** sono funzioni proprie delle liste che permettono di modificarle (alterarne la struttura). Essi si applicano alla variabile che identifica la lista tramite l'operatore punto: `.nome_metodo()`
 
 * `.append(e)`: permette di aggiungere l'elemento `e` in coda alla lista;
 * `.insert(i, e)`: permette di aggiungere l'elemento `e` nella posizione di indice `i` della lista;
@@ -165,8 +165,8 @@ print("Dati anagrafici:", persona_uno["nome"], persona_uno["cognome"], persona_u
 ```
 
 >[!WARNING]
-> In caso si tenti di accedere ad un valore tramite una chiave insesistente si ottiene un `KeyError`, errore che interrompe il programma.
-> Per evitare tale errore è possibile ricorrere al metodo `.get(k, other)` che ritorna il valore associato alla chiave `k` oppure l'elemento `other` oppure `None` (il vuoto) in caso il seondo parametro non sia specificato.
+> In caso si tenti di accedere a un valore tramite una chiave inesistente si ottiene un `KeyError`, errore che interrompe il programma.
+> Per evitare tale errore è possibile ricorrere al metodo `.get(k, other)` che ritorna il valore associato alla chiave `k` oppure l'elemento `other` oppure `None` (il vuoto) in caso il secondo parametro non sia specificato.
 
 ```python
 #Definizione di un dictionary
@@ -218,7 +218,7 @@ values = my_dict.values()       #Restituisce: ["Mele", "Pere"]
 items = my_dict.items()         #Restituisce: [("k1", "Mele"), ("k2", "Pere")]
 ```
 
-Per iterare sugli oggetti di un dictionary è possibile utilzzare una coppia di variabili come mostrato nel seguito:
+Per iterare sugli oggetti di un dictionary è possibile utilizzare una coppia di variabili come mostrato nel seguito:
 
 ```python
 #Iterazione su oggetti di un dictionary
