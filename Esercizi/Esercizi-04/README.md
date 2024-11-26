@@ -46,7 +46,7 @@ persone = [
 
 In matematica le soluzioni di una quazione di secondo grado del tipo `ax^2 + bx + c = 0`si calcolano tramite la seguente formula:
 
-![formula](../../Materiali/images/formula-equazioni.jpg)
+![formula](../../Lezioni/images/formula-equazioni.jpg)
 
 **IMPORTANTE**: se DELTA risulta essere minore di 0, l'equazione NON possiede soluzioni reali.
 
