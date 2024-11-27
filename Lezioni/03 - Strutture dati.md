@@ -33,6 +33,10 @@ for ch in str:
     print(ch)
 ```
 
+Per ricavare la lunghezza di caratteri contenuti in una stringa è possibile utilizzare la funzione `len(mystring)`.
+
+### Metodi delle stringhe
+
 Come tutte le strutture dati, anche le stringe possiedono metodi, se ne riportano alcuni
 
 * `.isalpha()`: Restituisce `True` se la stringa contiene solo caratteri alfabetici;
@@ -58,6 +62,21 @@ print(str.format("Campo X"))                #Stampa: "Parte fissa della stringa 
 
 nome = "MARIO"
 print(str.format(nome))               #Stampa: "Parte fissa della stringa seguita da un campo: MARIO"
+```
+
+### Slicing di stringhe
+
+Si dice *slicing* l'operazione di "taglio" di una stringa considerando solamente una certa sua parte. In python è possibile effettuare
+lo slicing di stringe tramite la sintassi `string[start:end]` dove `start` e `end` sono indici di un intervallo di caratteri della stringa.
+
+```python
+str = "abcdefgh..."
+
+sliced = str[2:]                #cdefgh...
+sliced = str[2:5]               #def
+sliced = str[:5]                #abcde
+sliced = str[-3:]               #...
+sliced = str[:-3]               #abcdefgh
 ```
 
 ## Tuple
