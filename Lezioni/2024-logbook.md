@@ -15,4 +15,4 @@
 | 26-11-2024 (1) | Esercizio su liste (DOS-attack). Dictionary ed esercizi                            | L03             | [E03](../Esercizi/Esercizi-03)                             |
 | 26-11-2024 (2) | Funzioni: definizione, chiamata e parametri. Esercizi A, B,  C                     | L04             | [E04](../Esercizi/Esercizi-04)                             |
 | 03-12-2024 (1) | Esercizi su funzioni: correzione e svolgimento guidato                             |                 | [E04](../Esercizi/Esercizi-04)                             |
-| 03-12-2024 (2) | File di testo: open(), f.readline(), f.readlines(), f.write()                      | L05             |                                                            |
+| 03-12-2024 (2) | File di testo: open(), f.readline(), f.readlines(), f.write()                      | L05             | /                                                          |
