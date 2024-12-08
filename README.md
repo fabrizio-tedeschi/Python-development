@@ -23,7 +23,7 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * [W3SCHOOL](https://www.w3schools.com/python/)
 * [PYTHON TUTORIAL](https://www.pythontutorial.net/)
 
-## Moduli del corso BASE
+## Studio del linguaggio
 
 ### [00] - *Introduzione*
 
@@ -61,7 +61,6 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * File di testo come risorsa su cui salvare informazioni
 * Operare con le directory del file system
 
-## Moduli del corso INTERMEDIO
 #### Object Oriented Programming (OOP)
 
 > WIP
@@ -72,6 +71,6 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 ### [09] - Enumerazioni
 ### [10] - Eccezioni
 
-## Moduli del corso AVANZATO
+## Librerie
 
 > WIP
