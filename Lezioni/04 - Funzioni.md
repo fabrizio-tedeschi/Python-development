@@ -112,7 +112,7 @@ print(risultato)                            #Stampa: [1, 2, 3, 4, 5]
 Talvolta una funzione necessita di un certo parametro per svolgere il proprio compito ma non sempre è possibile passarlo.
 Per ovviare a tale problema vengono utilizzati parametri con valori di default.
 
-Per impostare un valore di default di un parmetro si utilizza l'operatore `=` al momento della definizione della funzione:
+Per impostare un valore di default di un parametro si utilizza l'operatore `=` al momento della definizione della funzione:
 
 ```python
 def saluta(nome, messaggio = "Ciao,"):
@@ -123,4 +123,4 @@ saluta("Mario")                             #Stampa: Ciao, Mario
 ```
 
 >[!NOTE]
-> Dato che i parametri dBi una funzione vengono passati IN ORDINE è sempre bene porre i parametri opzionali come ultimi  parametri dell'elenco.
+> Dato che i parametri di una funzione vengono passati IN ORDINE è sempre bene porre i parametri opzionali come ultimi parametri dell'elenco.
