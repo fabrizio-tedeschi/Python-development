@@ -1,4 +1,4 @@
-# # Progetto guidato - *registro elettronico*
+# Progetto guidato - *registro elettronico*
 
 ## Obiettivo
 Si vuole sviluppare una app da terminale che consenta di gestire un elenco di studenti con relativi voti e media aritmetica.
@@ -81,7 +81,7 @@ def stampa_studenti(lista_studenti):
 ```
 
 Per eseguire la stampa degli studenti sarà sufficiente chiamare la funzione sopra implementata all'interno del menu creato
-al passo precedente>
+al passo precedente:
 
 ```python
     # Stampa studenti
