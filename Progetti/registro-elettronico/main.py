@@ -51,7 +51,7 @@ def stampa_medie(dati):
 while True:
     #Stampa delle possibili opzioni che l'utente puo' inserire
     print("1. Stampa lista studenti")
-    print("2. Stampo media studente")
+    print("2. Stampa media studenti")
     print("3. Exit")
 
     #Attesa di un comando da parte dell'utente
@@ -70,4 +70,6 @@ while True:
         print()
         print("Sto uscendo dal programma...")
         print()
+
+        #Interruzione forzata del ciclo while
         break
