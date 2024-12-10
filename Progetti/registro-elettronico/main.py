@@ -11,7 +11,7 @@ def media(lista_voti):
     if len(lista_voti) == 0:
         return 0
 
-    #Calcolo dells media
+    #Calcolo della media
     somma = 0
     for voto in lista_voti:
         somma = somma + voto
@@ -47,7 +47,7 @@ def stampa_medie(dati):
     print()
 
 
-# Menu
+# Menu principale
 while True:
     #Stampa delle possibili opzioni che l'utente puo' inserire
     print("1. Stampa lista studenti")
