@@ -96,3 +96,8 @@ al passo precedente:
 
 Si può procedere analogamente nello sviluppo della seconda specifica (stampa media studenti) come mostrato nel codice
 completo del file `main.py` presente in questa cartella.
+
+> [!TIP]
+> * L'ordine in cui viene scritto il codice è importante: le funzioni devono essere definite prima di essere chiamate
+> * Il passaggio dei dati alle funzioni è importante: una funzione che non ha parametri non può agire sui dati esterni
+> (e quindi, in questo caso, sulla struttura `studenti_voti`)
