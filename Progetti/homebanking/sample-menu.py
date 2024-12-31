@@ -21,8 +21,8 @@ def conta_prodotti(lista):
 #Implementazione menu
 prodotti = ["mela", "pera", "banana", "mela"]
 
-comando = 0;
-while(comando != 3):
+comando = 0
+while comando != 3:
     stampa_menu()
     comando = int(input("Inserire un comando: "))
 
