@@ -61,11 +61,11 @@ Questa repository contiene tutte le informazioni ed i materiali per coloro che d
 * File di testo come risorsa su cui salvare informazioni
 * Operare con le directory del file system
 
-#### Object Oriented Programming (OOP)
+#### Object-Oriented Programming (OOP)
 
 > WIP
 
-### [06] - Approccio ad oggetti
+### [06] - Approccio a oggetti
 ### [07] - Metodi speciali
 ### [08] - Ereditarietà
 ### [09] - Enumerazioni
