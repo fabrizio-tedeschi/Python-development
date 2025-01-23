@@ -44,3 +44,13 @@ Software di uno shop online che perette di gestire e acquistare prodotti. Il sof
 * Stampa partite per un giocatore selezionato
 
 ## Lavori degli studenti
+
+| Titolo                                        | Realizzato da                                                            | Link al file                          |
+|-----------------------------------------------|--------------------------------------------------------------------------|---------------------------------------|
+| Software gestionale di una biblioteca         | Eleonora Lusuardi, Fatima Rubab                                          | [Codice sorgente](./01-biblioteca.py) |
+| Software per agenda elettronica               | Letizia Poli, Margherita Davoli                                          | [Codice sorgente](./02-agenda.py)     |
+| E-commerce di profumi                         | Agata Spaggiari, Vittoria, Ingenito, Emma Salatino                       | [Codice sorgente](./03-profumi.py)    |
+| Software gestionale di una biblioteca         | Andrea Giuliani, Maria Beatrice Lupi, Sara Gozzi                         | [Codice sorgente](./04-biblioteca.py) |
+| Software gestionale di squadre sportive       | Victoria Jimenez, Alessia Di Marino, Allegra Contini, Giulia Cocconcelli | [Codice sorgente](./05-squadre.py)    |
+| Software di vendita di un concessionario auto | Remzi Cami, Melissa Mirabella, Anna Iannantuono                          | [Codice sorgente](./06-auto.py)       |
+| Software di gestione punteggi basket          | Matteo Castagnetti                                                       | [Codice sorgente](./07-basket.py)     |

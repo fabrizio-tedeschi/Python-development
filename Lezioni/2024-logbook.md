@@ -18,7 +18,7 @@
 | 03-12-2024 (2) | File di testo: open(), f.readline(), f.readlines(), f.write()                      | L05             | /                                                            |
 | 10-12-2024 (1) | Ripasso ed esercizi su file A, B, C, D e correzione                                | /               | [E05](../Esercizi/Esercizi-05)                               |
 | 10-12-2024 (2) | Sviluppo guidato di una semplice app di registro elettronico                       | /               | [Codice scritto in classe](../Progetti/registro-elettronico) |
-| 14-01-2025 (1) | Introduzione allo sviluppo dei progetti di fine corso (progettazione)              | /               | [Progetti finali](../Progetti/progetti-finali)               |
-| 14-01-2025 (2) | Sviluppo progetti di fine corso                                                    | /               | [Progetti finali](../Progetti/progetti-finali)               |
-| 21-01-2025 (1) | Sviluppo progetti di fine corso                                                    | /               | [Progetti finali](../Progetti/progetti-finali)               |
-| 21-01-2025 (2) | Sviluppo progetti di fine corso                                                    | /               | [Progetti finali](../Progetti/progetti-finali)               |
+| 14-01-2025 (1) | Introduzione allo sviluppo dei progetti di fine corso (progettazione)              | /               | [Progetti finali](../Progetti/progetti-finali-2024)               |
+| 14-01-2025 (2) | Sviluppo progetti di fine corso                                                    | /               | [Progetti finali](../Progetti/progetti-finali-2024)               |
+| 21-01-2025 (1) | Sviluppo progetti di fine corso                                                    | /               | [Progetti finali](../Progetti/progetti-finali-2024)               |
+| 21-01-2025 (2) | Sviluppo progetti di fine corso                                                    | /               | [Progetti finali](../Progetti/progetti-finali-2024)               |
